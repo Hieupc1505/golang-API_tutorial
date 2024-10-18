@@ -8,6 +8,7 @@ import (
 	"github.com/hieupc09/simple_api/utils"
 )
 
+/** for test*/
 func (server *Server) registerUser(ctx *gin.Context) {
 	var req registerUserRequest
 	if err := ctx.ShouldBindJSON(&req); err != nil {
